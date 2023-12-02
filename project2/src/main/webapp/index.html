@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+
+<html lang="en">
+    <head>
+
+        <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js" type="text/javascript"></script>
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/flatpickr/dist/flatpickr.min.css">	<!-- Linking with date tool -->
+        <link rel="stylesheet" type="text/css" href="css/style.css">
+
+        <meta charset="UTF-8">
+        <title>Basic AJAX App</title>
+    </head>
+    <body>
+        <div id="registrationTable">
+            <table>
+                <tr>
+                    <td><input type="text" placeholder="Player 1 name" id="player1Name" autocomplete="off"/></br><label id="name1Label">*</label></td>
+                </tr>
+
+                <tr>
+                    <td><input type="text" placeholder="Player 2 name" id="player2Name" autocomplete="off"/></br><label id="name2Label">*</label></td>
+                </tr>
+
+                <tr>
+                    <td><input type="date" placeholder="Date" id="datePicker" autocomplete="off"/></br><label id="dateLabel">*</label></td>
+                </tr>
+
+                <tr>
+                    <td cellspan="2"><input type="submit" value="Create new Game" id="createButton"/></td>
+                </tr>
+            </table>
+        </div>
+
+        <div><button type="button"  id="playButton">I want to play!</button></div>
+        <div id="gamesList">
+            <ul id="myList">
+                <label id="upcomingGamesLabel">Upcoming Games</label>
+            </ul>
+        </div>
+
+        <script src="https://cdn.jsdelivr.net/npm/flatpickr"></script>
+        <script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
+        <script src="js/script.js"></script>
+        <script src="js/game.js"></script>
+        <script src="js/validation.js"></script>
+    </body>
+</html>
