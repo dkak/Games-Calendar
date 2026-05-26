@@ -19,7 +19,8 @@ A lightweight, Single Page Application (SPA) designed to schedule and manage upc
 ### Frontend
 * **Core:** HTML5, CSS3, JavaScript (ES6)
 * **DOM & Ajax:** jQuery (v1.7.1)
-* **Plugins:** * [Flatpickr](https://flatpickr.js.org/) (Datepicker handling)
+* **Plugins:**
+  * [Flatpickr](https://flatpickr.js.org/) (Datepicker handling)
   * [SweetAlert](https://sweetalert.js.org/) (Elegant error and warning alerts)
 
 ### Backend
